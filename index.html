@@ -15,7 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Arial', sans-serif;
-    background: black;
+    background: black; /* 👈 CAMBIATO QUI */
     color: white;
     overflow: hidden;
     text-align: center;
@@ -128,7 +128,7 @@ canvas {
     trovo un modo per tornare indietro!"
 </div>
 
-
+<!-- TESTO IN BASSO A SINISTRA -->
 <div id="footer">
     (gli albanesi senza che li republichi che non mi piacciono a maggior ragione tranquilla)
 </div>
@@ -167,8 +167,8 @@ yesBtn.addEventListener("click", () => {
     started = true;
 
     canvas.style.display = "block";
-    message.style.display = "block";   // 👈 mostra testo centrale
-    footer.style.display = "block";    // 👈 mostra testo in basso
+    message.style.display = "block";
+    footer.style.display = "block";
 
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
